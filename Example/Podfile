@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'HLSwiftKit_Example' do
+  pod 'HLSwiftKit', :path => '../'
+
+  target 'HLSwiftKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
