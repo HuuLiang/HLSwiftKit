@@ -1,0 +1,6 @@
+module Pods_HLSwiftKit_Example {
+  umbrella header "Pods-HLSwiftKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

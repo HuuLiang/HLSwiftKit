@@ -1,0 +1,62 @@
+PODS:
+  - Alamofire (5.6.1)
+  - AlamofireNetworkActivityIndicator (3.1.0):
+    - Alamofire (~> 5.1)
+  - Aspects (1.4.1)
+  - HLSwiftKit (0.0.1):
+    - Alamofire (= 5.6.1)
+    - AlamofireNetworkActivityIndicator (~> 3.1.0)
+    - Aspects (~> 1.4.1)
+    - Kingfisher (~> 6.3.1)
+    - MJRefresh (~> 3.7.5)
+    - RxCocoa (= 6.5.0)
+    - RxSwift (= 6.5.0)
+    - SnapKit (= 5.0.1)
+    - SwiftDate (= 6.3.1)
+  - Kingfisher (6.3.1)
+  - MJRefresh (3.7.5)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - SnapKit (5.0.1)
+  - SwiftDate (6.3.1)
+
+DEPENDENCIES:
+  - HLSwiftKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireNetworkActivityIndicator
+    - Aspects
+    - Kingfisher
+    - MJRefresh
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SnapKit
+    - SwiftDate
+
+EXTERNAL SOURCES:
+  HLSwiftKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 87bd8c952f9a4454320fce00d9cc3de57bcadaf5
+  AlamofireNetworkActivityIndicator: 6564782bd7b9e6c430ae67d9277af01907b01ca4
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  HLSwiftKit: 456507c8d1d3680e643d1f063de23a5a7b77750e
+  Kingfisher: 016c8b653a35add51dd34a3aba36b580041acc74
+  MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SwiftDate: 72d28954e8e1c6c1c0f917ccc8005e4f83c7d4b2
+
+PODFILE CHECKSUM: a626084e672d66517483ad5d8eb70ea015f643be
+
+COCOAPODS: 1.11.3

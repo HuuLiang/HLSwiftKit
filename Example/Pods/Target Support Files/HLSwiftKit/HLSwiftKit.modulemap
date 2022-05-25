@@ -1,0 +1,6 @@
+module HLSwiftKit {
+  umbrella header "HLSwiftKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

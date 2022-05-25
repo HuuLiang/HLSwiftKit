@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3644928BFEBB12F710BBDCA4 /* Pods_HLSwiftKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046E23550C090264CA2A04EE /* Pods_HLSwiftKit_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		9C4C6FC401D02BD9F97E914F /* Pods_HLSwiftKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A74456EB2291D6D37038FDF /* Pods_HLSwiftKit_Example.framework */; };
+		8668F916B45518EB57A2335F /* libPods-HLSwiftKit_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12F69017F57AB9FBD36C77E5 /* libPods-HLSwiftKit_Tests.a */; };
+		89653958238AF8CDDF19F81C /* libPods-HLSwiftKit_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B6E2EC81F42C4FBCDC6C0D4 /* libPods-HLSwiftKit_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,9 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		046E23550C090264CA2A04EE /* Pods_HLSwiftKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HLSwiftKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12F69017F57AB9FBD36C77E5 /* libPods-HLSwiftKit_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HLSwiftKit_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B6E2EC81F42C4FBCDC6C0D4 /* libPods-HLSwiftKit_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HLSwiftKit_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F9776F3185EFD54F6618D23 /* Pods-HLSwiftKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLSwiftKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-HLSwiftKit_Tests/Pods-HLSwiftKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4A74456EB2291D6D37038FDF /* Pods_HLSwiftKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HLSwiftKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* HLSwiftKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLSwiftKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,9 +41,9 @@
 		607FACE51AFB9204008FA782 /* HLSwiftKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLSwiftKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		788C654B611E10B1F2818CC4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		7F03C573592C20C559748175 /* HLSwiftKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HLSwiftKit.podspec; path = ../HLSwiftKit.podspec; sourceTree = "<group>"; };
-		7F3DBA5D1CC24C012ADC3A7D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		788C654B611E10B1F2818CC4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7F03C573592C20C559748175 /* HLSwiftKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HLSwiftKit.podspec; path = ../HLSwiftKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7F3DBA5D1CC24C012ADC3A7D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		837B874C6D150EA9FEF6ABC6 /* Pods-HLSwiftKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLSwiftKit_Example.release.xcconfig"; path = "Target Support Files/Pods-HLSwiftKit_Example/Pods-HLSwiftKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CA41D75F8F5EBB74261DB0A4 /* Pods-HLSwiftKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLSwiftKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-HLSwiftKit_Example/Pods-HLSwiftKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CF923EEF9024F2F07A0ECA20 /* Pods-HLSwiftKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLSwiftKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HLSwiftKit_Tests/Pods-HLSwiftKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C4C6FC401D02BD9F97E914F /* Pods_HLSwiftKit_Example.framework in Frameworks */,
+				89653958238AF8CDDF19F81C /* libPods-HLSwiftKit_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3644928BFEBB12F710BBDCA4 /* Pods_HLSwiftKit_Tests.framework in Frameworks */,
+				8668F916B45518EB57A2335F /* libPods-HLSwiftKit_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,15 +77,14 @@
 				CF923EEF9024F2F07A0ECA20 /* Pods-HLSwiftKit_Tests.debug.xcconfig */,
 				1F9776F3185EFD54F6618D23 /* Pods-HLSwiftKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		388BDBD174952946C83C4BC3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4A74456EB2291D6D37038FDF /* Pods_HLSwiftKit_Example.framework */,
-				046E23550C090264CA2A04EE /* Pods_HLSwiftKit_Tests.framework */,
+				1B6E2EC81F42C4FBCDC6C0D4 /* libPods-HLSwiftKit_Example.a */,
+				12F69017F57AB9FBD36C77E5 /* libPods-HLSwiftKit_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -171,7 +170,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				5E2E54701AC993ED8820FB4C /* [CP] Embed Pods Frameworks */,
+				CC069EF53FC829A7983C67B6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -284,24 +284,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5E2E54701AC993ED8820FB4C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HLSwiftKit_Example/Pods-HLSwiftKit_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/HLSwiftKit/HLSwiftKit.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HLSwiftKit.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HLSwiftKit_Example/Pods-HLSwiftKit_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		8F2CCA3D92B30CD9E0950969 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -322,6 +304,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC069EF53FC829A7983C67B6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HLSwiftKit_Example/Pods-HLSwiftKit_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/HLSwiftKit/PKHUDResources.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SwiftDate/Sources/SwiftDate/Formatters/RelativeFormatter/langs",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PKHUDResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/langs",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HLSwiftKit_Example/Pods-HLSwiftKit_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -419,7 +423,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +469,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -479,6 +483,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HLSwiftKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -494,6 +499,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HLSwiftKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
